@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Lemon&family=Oswald&family=Permanent+Marker&family=Poor+Story&family=Poppins&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poor Story', system-ui;
+}
+.container {
+  width: 100%;
+  padding: 10px 20px;
+}
+body {
+  background-image: url(imgaes/images.jpeg);
+  background-size: cover;
+  height: 100vh;
+}
+
+.name {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  gap: 10px;
+}
+
+.name > img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+}
+.imgTag > img {
+  width: 100%;
+  height: 200px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+@media (max-width: 414px) {
+}
